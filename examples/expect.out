@@ -1,0 +1,4196 @@
+============================= set4S =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+-10 is new item: 1
+20 is new item: 1
+-30 is new item: 1
+40 is new item: 1
+10 is new item: 1
+-110 is new item: 1
+120 is new item: 1
+-130 is new item: 1
+140 is new item: 1
+110 is new item: 1
+-1110 is new item: 1
+120 is new item: 0
+-1130 is new item: 1
+1140 is new item: 1
+210 is new item: 1
+-2110 is new item: 1
+2120 is new item: 1
+-2130 is new item: 1
+2140 is new item: 1
+10 is new item: 0
+-110 is new item: 0
+3120 is new item: 1
+-3130 is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [-10, 110]: 6
+
+item -10 is in the set
+item 0 is in the set
+item 10 is in the set
+
+============================= set8S =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+-10 is new item: 1
+20 is new item: 1
+-30 is new item: 1
+40 is new item: 1
+10 is new item: 1
+-110 is new item: 1
+120 is new item: 1
+-130 is new item: 1
+140 is new item: 1
+110 is new item: 1
+-1110 is new item: 1
+120 is new item: 0
+-1130 is new item: 1
+1140 is new item: 1
+210 is new item: 1
+-2110 is new item: 1
+2120 is new item: 1
+-2130 is new item: 1
+2140 is new item: 1
+10 is new item: 0
+-110 is new item: 0
+3120 is new item: 1
+-3130 is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [-10, 110]: 6
+
+item -10 is in the set
+item 0 is in the set
+item 10 is in the set
+
+============================= set4U =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+4294967286 is new item: 1
+20 is new item: 1
+4294967266 is new item: 1
+40 is new item: 1
+10 is new item: 1
+4294967186 is new item: 1
+120 is new item: 1
+4294967166 is new item: 1
+140 is new item: 1
+110 is new item: 1
+4294966186 is new item: 1
+120 is new item: 0
+4294966166 is new item: 1
+1140 is new item: 1
+210 is new item: 1
+4294965186 is new item: 1
+2120 is new item: 1
+4294965166 is new item: 1
+2140 is new item: 1
+10 is new item: 0
+4294967186 is new item: 0
+3120 is new item: 1
+4294964166 is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   4294964166
+   4294965166
+   4294965186
+   4294966166
+   4294966186
+   4294967166
+   4294967186
+   4294967266
+   4294967286
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [4294967286, 110]: 0
+
+
+============================= set8U =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+18446744073709551606 is new item: 1
+20 is new item: 1
+18446744073709551586 is new item: 1
+40 is new item: 1
+10 is new item: 1
+18446744073709551506 is new item: 1
+120 is new item: 1
+18446744073709551486 is new item: 1
+140 is new item: 1
+110 is new item: 1
+18446744073709550506 is new item: 1
+120 is new item: 0
+18446744073709550486 is new item: 1
+1140 is new item: 1
+210 is new item: 1
+18446744073709549506 is new item: 1
+2120 is new item: 1
+18446744073709549486 is new item: 1
+2140 is new item: 1
+10 is new item: 0
+18446744073709551506 is new item: 0
+3120 is new item: 1
+18446744073709548486 is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   18446744073709548486
+   18446744073709549486
+   18446744073709549506
+   18446744073709550486
+   18446744073709550506
+   18446744073709551486
+   18446744073709551506
+   18446744073709551586
+   18446744073709551606
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [18446744073709551606, 110]: 0
+
+
+============================= setI =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+-10 is new item: 1
+20 is new item: 1
+-30 is new item: 1
+40 is new item: 1
+10 is new item: 1
+-110 is new item: 1
+120 is new item: 1
+-130 is new item: 1
+140 is new item: 1
+110 is new item: 1
+-1110 is new item: 1
+120 is new item: 0
+-1130 is new item: 1
+1140 is new item: 1
+210 is new item: 1
+-2110 is new item: 1
+2120 is new item: 1
+-2130 is new item: 1
+2140 is new item: 1
+10 is new item: 0
+-110 is new item: 0
+3120 is new item: 1
+-3130 is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [-10, 110]: 6
+
+item -10 is in the set
+item 0 is in the set
+item 10 is in the set
+
+============================= setU =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+DIIIIGITS is new item: 1
+20 is new item: 1
+DIIIIGITS is new item: 1
+40 is new item: 1
+10 is new item: 1
+DIIIIGITS is new item: 1
+120 is new item: 1
+DIIIIGITS is new item: 1
+140 is new item: 1
+110 is new item: 1
+DIIIIGITS is new item: 1
+120 is new item: 0
+DIIIIGITS is new item: 1
+1140 is new item: 1
+210 is new item: 1
+DIIIIGITS is new item: 1
+2120 is new item: 1
+DIIIIGITS is new item: 1
+2140 is new item: 1
+10 is new item: 0
+DIIIIGITS is new item: 0
+3120 is new item: 1
+DIIIIGITS is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [DIIIIGITS, 110]: 0
+
+
+============================= setL =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+-10 is new item: 1
+20 is new item: 1
+-30 is new item: 1
+40 is new item: 1
+10 is new item: 1
+-110 is new item: 1
+120 is new item: 1
+-130 is new item: 1
+140 is new item: 1
+110 is new item: 1
+-1110 is new item: 1
+120 is new item: 0
+-1130 is new item: 1
+1140 is new item: 1
+210 is new item: 1
+-2110 is new item: 1
+2120 is new item: 1
+-2130 is new item: 1
+2140 is new item: 1
+10 is new item: 0
+-110 is new item: 0
+3120 is new item: 1
+-3130 is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [-10, 110]: 6
+
+item -10 is in the set
+item 0 is in the set
+item 10 is in the set
+
+============================= setLU =============================
+memory used by empty set: 0 bytes
+items in empty set: 0
+
+0 is new item: 1
+DIIIIGITS is new item: 1
+20 is new item: 1
+DIIIIGITS is new item: 1
+40 is new item: 1
+10 is new item: 1
+DIIIIGITS is new item: 1
+120 is new item: 1
+DIIIIGITS is new item: 1
+140 is new item: 1
+110 is new item: 1
+DIIIIGITS is new item: 1
+120 is new item: 0
+DIIIIGITS is new item: 1
+1140 is new item: 1
+210 is new item: 1
+DIIIIGITS is new item: 1
+2120 is new item: 1
+DIIIIGITS is new item: 1
+2140 is new item: 1
+10 is new item: 0
+DIIIIGITS is new item: 0
+3120 is new item: 1
+DIIIIGITS is new item: 1
+3140 is new item: 1
+
+items in set: 22
+
+inserted items:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+items in [10, 110]: 4
+items in [DIIIIGITS, 110]: 0
+
+
+============================= map4U8U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+4294967286 is new item: yes
+value for key 4294967286 is 0
+20 is new item: yes
+value for key 20 is 0
+4294967266 is new item: yes
+value for key 4294967266 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+4294967186 is new item: yes
+value for key 4294967186 is 0
+120 is new item: yes
+value for key 120 is 0
+4294967166 is new item: yes
+value for key 4294967166 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+4294966186 is new item: yes
+value for key 4294966186 is 0
+120 is new item: no
+value for key 120 is 18446744073709551496
+4294966166 is new item: yes
+value for key 4294966166 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+4294965186 is new item: yes
+value for key 4294965186 is 0
+2120 is new item: yes
+value for key 2120 is 0
+4294965166 is new item: yes
+value for key 4294965166 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 18446744073709551606
+4294967186 is new item: no
+value for key 4294967186 is 110
+3120 is new item: yes
+value for key 3120 is 0
+4294964166 is new item: yes
+value for key 4294964166 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   4294964166
+   4294965166
+   4294965186
+   4294966166
+   4294966186
+   4294967166
+   4294967186
+   4294967266
+   4294967286
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [4294967286, 110]: 0
+
+
+============================= map4U4U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+4294967286 is new item: yes
+value for key 4294967286 is 0
+20 is new item: yes
+value for key 20 is 0
+4294967266 is new item: yes
+value for key 4294967266 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+4294967186 is new item: yes
+value for key 4294967186 is 0
+120 is new item: yes
+value for key 120 is 0
+4294967166 is new item: yes
+value for key 4294967166 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+4294966186 is new item: yes
+value for key 4294966186 is 0
+120 is new item: no
+value for key 120 is 4294967176
+4294966166 is new item: yes
+value for key 4294966166 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+4294965186 is new item: yes
+value for key 4294965186 is 0
+2120 is new item: yes
+value for key 2120 is 0
+4294965166 is new item: yes
+value for key 4294965166 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 4294967286
+4294967186 is new item: no
+value for key 4294967186 is 110
+3120 is new item: yes
+value for key 3120 is 0
+4294964166 is new item: yes
+value for key 4294964166 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   4294964166
+   4294965166
+   4294965186
+   4294966166
+   4294966186
+   4294967166
+   4294967186
+   4294967266
+   4294967286
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [4294967286, 110]: 0
+
+
+============================= map8U4U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+18446744073709551606 is new item: yes
+value for key 18446744073709551606 is 0
+20 is new item: yes
+value for key 20 is 0
+18446744073709551586 is new item: yes
+value for key 18446744073709551586 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+18446744073709551506 is new item: yes
+value for key 18446744073709551506 is 0
+120 is new item: yes
+value for key 120 is 0
+18446744073709551486 is new item: yes
+value for key 18446744073709551486 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+18446744073709550506 is new item: yes
+value for key 18446744073709550506 is 0
+120 is new item: no
+value for key 120 is 4294967176
+18446744073709550486 is new item: yes
+value for key 18446744073709550486 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+18446744073709549506 is new item: yes
+value for key 18446744073709549506 is 0
+2120 is new item: yes
+value for key 2120 is 0
+18446744073709549486 is new item: yes
+value for key 18446744073709549486 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 4294967286
+18446744073709551506 is new item: no
+value for key 18446744073709551506 is 110
+3120 is new item: yes
+value for key 3120 is 0
+18446744073709548486 is new item: yes
+value for key 18446744073709548486 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   18446744073709548486
+   18446744073709549486
+   18446744073709549506
+   18446744073709550486
+   18446744073709550506
+   18446744073709551486
+   18446744073709551506
+   18446744073709551586
+   18446744073709551606
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [18446744073709551606, 110]: 0
+
+
+============================= map8U8U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+18446744073709551606 is new item: yes
+value for key 18446744073709551606 is 0
+20 is new item: yes
+value for key 20 is 0
+18446744073709551586 is new item: yes
+value for key 18446744073709551586 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+18446744073709551506 is new item: yes
+value for key 18446744073709551506 is 0
+120 is new item: yes
+value for key 120 is 0
+18446744073709551486 is new item: yes
+value for key 18446744073709551486 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+18446744073709550506 is new item: yes
+value for key 18446744073709550506 is 0
+120 is new item: no
+value for key 120 is 18446744073709551496
+18446744073709550486 is new item: yes
+value for key 18446744073709550486 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+18446744073709549506 is new item: yes
+value for key 18446744073709549506 is 0
+2120 is new item: yes
+value for key 2120 is 0
+18446744073709549486 is new item: yes
+value for key 18446744073709549486 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 18446744073709551606
+18446744073709551506 is new item: no
+value for key 18446744073709551506 is 110
+3120 is new item: yes
+value for key 3120 is 0
+18446744073709548486 is new item: yes
+value for key 18446744073709548486 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   18446744073709548486
+   18446744073709549486
+   18446744073709549506
+   18446744073709550486
+   18446744073709550506
+   18446744073709551486
+   18446744073709551506
+   18446744073709551586
+   18446744073709551606
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [18446744073709551606, 110]: 0
+
+
+============================= map4U4S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+4294967286 is new item: yes
+value for key 4294967286 is 0
+20 is new item: yes
+value for key 20 is 0
+4294967266 is new item: yes
+value for key 4294967266 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+4294967186 is new item: yes
+value for key 4294967186 is 0
+120 is new item: yes
+value for key 120 is 0
+4294967166 is new item: yes
+value for key 4294967166 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+4294966186 is new item: yes
+value for key 4294966186 is 0
+120 is new item: no
+value for key 120 is -120
+4294966166 is new item: yes
+value for key 4294966166 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+4294965186 is new item: yes
+value for key 4294965186 is 0
+2120 is new item: yes
+value for key 2120 is 0
+4294965166 is new item: yes
+value for key 4294965166 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+4294967186 is new item: no
+value for key 4294967186 is 110
+3120 is new item: yes
+value for key 3120 is 0
+4294964166 is new item: yes
+value for key 4294964166 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   4294964166
+   4294965166
+   4294965186
+   4294966166
+   4294966186
+   4294967166
+   4294967186
+   4294967266
+   4294967286
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [4294967286, 110]: 0
+
+
+============================= map4U8S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+4294967286 is new item: yes
+value for key 4294967286 is 0
+20 is new item: yes
+value for key 20 is 0
+4294967266 is new item: yes
+value for key 4294967266 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+4294967186 is new item: yes
+value for key 4294967186 is 0
+120 is new item: yes
+value for key 120 is 0
+4294967166 is new item: yes
+value for key 4294967166 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+4294966186 is new item: yes
+value for key 4294966186 is 0
+120 is new item: no
+value for key 120 is -120
+4294966166 is new item: yes
+value for key 4294966166 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+4294965186 is new item: yes
+value for key 4294965186 is 0
+2120 is new item: yes
+value for key 2120 is 0
+4294965166 is new item: yes
+value for key 4294965166 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+4294967186 is new item: no
+value for key 4294967186 is 110
+3120 is new item: yes
+value for key 3120 is 0
+4294964166 is new item: yes
+value for key 4294964166 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   4294964166
+   4294965166
+   4294965186
+   4294966166
+   4294966186
+   4294967166
+   4294967186
+   4294967266
+   4294967286
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [4294967286, 110]: 0
+
+
+============================= map8U4S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+18446744073709551606 is new item: yes
+value for key 18446744073709551606 is 0
+20 is new item: yes
+value for key 20 is 0
+18446744073709551586 is new item: yes
+value for key 18446744073709551586 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+18446744073709551506 is new item: yes
+value for key 18446744073709551506 is 0
+120 is new item: yes
+value for key 120 is 0
+18446744073709551486 is new item: yes
+value for key 18446744073709551486 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+18446744073709550506 is new item: yes
+value for key 18446744073709550506 is 0
+120 is new item: no
+value for key 120 is -120
+18446744073709550486 is new item: yes
+value for key 18446744073709550486 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+18446744073709549506 is new item: yes
+value for key 18446744073709549506 is 0
+2120 is new item: yes
+value for key 2120 is 0
+18446744073709549486 is new item: yes
+value for key 18446744073709549486 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+18446744073709551506 is new item: no
+value for key 18446744073709551506 is 110
+3120 is new item: yes
+value for key 3120 is 0
+18446744073709548486 is new item: yes
+value for key 18446744073709548486 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   18446744073709548486
+   18446744073709549486
+   18446744073709549506
+   18446744073709550486
+   18446744073709550506
+   18446744073709551486
+   18446744073709551506
+   18446744073709551586
+   18446744073709551606
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [18446744073709551606, 110]: 0
+
+
+============================= map8U8S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+18446744073709551606 is new item: yes
+value for key 18446744073709551606 is 0
+20 is new item: yes
+value for key 20 is 0
+18446744073709551586 is new item: yes
+value for key 18446744073709551586 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+18446744073709551506 is new item: yes
+value for key 18446744073709551506 is 0
+120 is new item: yes
+value for key 120 is 0
+18446744073709551486 is new item: yes
+value for key 18446744073709551486 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+18446744073709550506 is new item: yes
+value for key 18446744073709550506 is 0
+120 is new item: no
+value for key 120 is -120
+18446744073709550486 is new item: yes
+value for key 18446744073709550486 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+18446744073709549506 is new item: yes
+value for key 18446744073709549506 is 0
+2120 is new item: yes
+value for key 2120 is 0
+18446744073709549486 is new item: yes
+value for key 18446744073709549486 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+18446744073709551506 is new item: no
+value for key 18446744073709551506 is 110
+3120 is new item: yes
+value for key 3120 is 0
+18446744073709548486 is new item: yes
+value for key 18446744073709548486 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   18446744073709548486
+   18446744073709549486
+   18446744073709549506
+   18446744073709550486
+   18446744073709550506
+   18446744073709551486
+   18446744073709551506
+   18446744073709551586
+   18446744073709551606
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [18446744073709551606, 110]: 0
+
+
+============================= map4S4U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is 4294967176
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 4294967286
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map4S8U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is 18446744073709551496
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 18446744073709551606
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map8S4U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is 4294967176
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 4294967286
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map8S8U =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is 18446744073709551496
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is 18446744073709551606
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map4S4S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map4S8S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map8S4S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map8S8S =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapIULU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapIUIU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapLUIU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapLULU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapIUIS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is -120
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapIULS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is -120
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapLUIS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is -120
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapLULS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+20 is new item: yes
+value for key 20 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: yes
+value for key 120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+120 is new item: no
+value for key 120 is -120
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2120 is new item: yes
+value for key 2120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+DIIIIGITS is new item: no
+value for key DIIIIGITS is 110
+3120 is new item: yes
+value for key 3120 is 0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+   DIIIIGITS
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapISIU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapISLU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapLSIU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapLSLU =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is DIIIIGITS
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is DIIIIGITS
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapISIS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapISLS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapLSIS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= mapLSLS =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0
+-10 is new item: yes
+value for key -10 is 0
+20 is new item: yes
+value for key 20 is 0
+-30 is new item: yes
+value for key -30 is 0
+40 is new item: yes
+value for key 40 is 0
+10 is new item: yes
+value for key 10 is 0
+-110 is new item: yes
+value for key -110 is 0
+120 is new item: yes
+value for key 120 is 0
+-130 is new item: yes
+value for key -130 is 0
+140 is new item: yes
+value for key 140 is 0
+110 is new item: yes
+value for key 110 is 0
+-1110 is new item: yes
+value for key -1110 is 0
+120 is new item: no
+value for key 120 is -120
+-1130 is new item: yes
+value for key -1130 is 0
+1140 is new item: yes
+value for key 1140 is 0
+210 is new item: yes
+value for key 210 is 0
+-2110 is new item: yes
+value for key -2110 is 0
+2120 is new item: yes
+value for key 2120 is 0
+-2130 is new item: yes
+value for key -2130 is 0
+2140 is new item: yes
+value for key 2140 is 0
+10 is new item: no
+value for key 10 is -10
+-110 is new item: no
+value for key -110 is 110
+3120 is new item: yes
+value for key 3120 is 0
+-3130 is new item: yes
+value for key -3130 is 0
+3140 is new item: yes
+value for key 3140 is 0
+
+keys in map: 22
+
+inserted keys:
+   -3130
+   -2130
+   -2110
+   -1130
+   -1110
+   -130
+   -110
+   -30
+   -10
+   0
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+   1140
+   2120
+   2140
+   3120
+   3140
+
+slow iteration [5,500] (smaller to larger order):
+   10
+   20
+   40
+   110
+   120
+   140
+   210
+
+slow iteration (10,210) (larger to smaller order):
+   140
+   120
+   110
+   40
+   20
+
+keys in [10, 110]: 4
+keys in [-10, 110]: 6
+
+key -10 is in the map
+key 0 is in the map
+key 10 is in the map
+
+============================= map4SP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+-10 is new item: yes
+value for key -10 is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+-30 is new item: yes
+value for key -30 is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   -30 -> libJudy
+   -10 -> libnina
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [-10, 110]: 4
+
+key -10 is in the map
+key 0 is in the map
+
+============================= map4UP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+4294967286 is new item: yes
+value for key 4294967286 is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+4294967266 is new item: yes
+value for key 4294967266 is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+   4294967266 -> libJudy
+   4294967286 -> libnina
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [4294967286, 110]: 0
+
+
+============================= map8SP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+-10 is new item: yes
+value for key -10 is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+-30 is new item: yes
+value for key -30 is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   -30 -> libJudy
+   -10 -> libnina
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [-10, 110]: 4
+
+key -10 is in the map
+key 0 is in the map
+
+============================= map8UP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+18446744073709551606 is new item: yes
+value for key 18446744073709551606 is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+18446744073709551586 is new item: yes
+value for key 18446744073709551586 is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+   18446744073709551586 -> libJudy
+   18446744073709551606 -> libnina
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [18446744073709551606, 110]: 0
+
+
+============================= mapIP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+-10 is new item: yes
+value for key -10 is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+-30 is new item: yes
+value for key -30 is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   -30 -> libJudy
+   -10 -> libnina
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [-10, 110]: 4
+
+key -10 is in the map
+key 0 is in the map
+
+============================= mapUP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+   DIIIIGITS -> libJudy
+   DIIIIGITS -> libnina
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [DIIIIGITS, 110]: 0
+
+
+============================= mapLP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+-10 is new item: yes
+value for key -10 is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+-30 is new item: yes
+value for key -30 is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   -30 -> libJudy
+   -10 -> libnina
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [-10, 110]: 4
+
+key -10 is in the map
+key 0 is in the map
+
+============================= mapLUP =============================
+memory used by empty map: 0 bytes
+keys in empty map: 0
+
+0 is new item: yes
+value for key 0 is 0x0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0x0
+20 is new item: yes
+value for key 20 is 0x0
+DIIIIGITS is new item: yes
+value for key DIIIIGITS is 0x0
+40 is new item: yes
+value for key 40 is 0x0
+
+keys in map: 5
+
+inserted keys:
+   0 -> libmarika
+   20 -> libnata
+   40 -> std::map
+   DIIIIGITS -> libJudy
+   DIIIIGITS -> libnina
+
+slow iteration [5,500] (smaller to larger order):
+   20
+   40
+
+slow iteration (10,210) (larger to smaller order):
+   40
+   20
+
+keys in [10, 110]: 2
+keys in [DIIIIGITS, 110]: 0
+
+

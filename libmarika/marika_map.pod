@@ -1,0 +1,154 @@
+=head1 NAME
+
+Marika map functions -- C library for manipulating an associative array with
+4/8-byte integer keys and values. Keys are ordered.
+
+=head1 LIBRARY
+
+ Associative array functions (libmarika, -lmarika)
+
+=head1 SYNOPSIS
+
+ typedef struct {
+   ...
+   uint8_t errno;          // error number
+ } marika_error_t;
+ 
+ typedef struct {
+   ...
+ } marika_iterator_t;
+
+ [VT]* mar[K][V]ins(void** pmap, [KT] key, marika_error_t* err);
+ [VT]* mar[K][V]put(void** pmap, [KT] key, int* new_item, marika_error_t* err);
+ int mar[K][V]del(void** pmap, [KT] key, marika_error_t* err);
+ [VT]* mar[K][V]get(const void* map, [KT] key);
+ size_t mar[K][V]size(const void* map);
+ size_t mar[K][V]memused(const void* map);
+ [VT]* mar[K][V]first(const void* map, [KT]* key);
+ [VT]* mar[K][V]next(const void* map, [KT]* key);
+ [VT]* mar[K][V]last(const void* map, [KT]* key);
+ [VT]* mar[K][V]prev(const void* map, [KT]* key);
+ size_t mar[K][V]count(const void* map, [KT] key1, [KT] key2);
+ void mar[K][V]iterator_init(void* map, marika_iterator_t* iterator);
+ void mar[K][V]iterator_destroy(marika_iterator_t* iterator);
+ int mar[K][V]iterate(marika_iterator_t* iterator, [KT]* key);
+ void mar[K][V]free(void** pmap);
+ [VT]* mar[K][V]print(const void* map);
+ int mar[K][V]sanity(const void* set, marika_error_t* err);
+
+I<[KT]> is a key type. It is
+I<uint64_t> (when I<[K]> is I<8U>),
+I<int64_t> (when I<[K]> is I<8S>),
+I<uint32_t> (when I<[K]> is I<4U>),
+I<int32_t> (when I<[K]> is I<4S>),
+I<int> (when I<[K]> is I<I> or I<IS>),
+I<unsigned> (when I<[K]> is I<U> or I<IU>),
+I<long> (when I<[K]> is I<L>) or
+I<unsigned long> (when I<[K]> is I<LU>).
+
+I<[VT]> is a value type. It is
+I<void*> (when I<[V]> is I<P>) or other type as in I<[KT]>.
+
+Here, letter I<U> means "unsigned", I<S> means "signed",
+4 or 8 specifies a key or value size. Letters I<I> and I<L>
+mean I<int> and I<long> types.
+So, I<4U> is I<uint32_t>, I<8S> is I<int64_t>,
+I<LU> is I<unsigned long>
+etc. For example, I<mar4S8Uget> uses I<int32_t> as a key and I<uint64_t> as
+value.
+
+=head1 MOTIVATION
+
+B<marika> family of functions allows creating and manipulating an
+associative array with 4/8-byte keys and values.  Internally, B+-Tree
+data structure is used with a few cache lines (aligned to cache line
+size) for leaf and internal nodes, thus, providing very good locality. Functions
+provided by libmarika provide performance better than traditional
+Red-Black, AVL or other binary search trees.  With the help of
+B<mar*iterate> function one can easily iterate over keys in ascending
+order.
+
+B<mar*P*> and B<mar*P*> functions provides a map from integer keys to
+the value able to store the pointer.
+
+=head1 DETAILS
+
+=head2 mar[K][V]ins
+
+Insert the I<key> to I<map> and return pointer to value.
+If the key is new, the returned value points to zero.
+
+=head2 mar[K][V]put
+
+Same as I<mar[K][V]ins> but returned
+I<new_item> is 1 if inserted key is new. Otherwise I<new_item> is 0.
+
+=head2 mar[K][V]del
+
+Delete I<key> from I<map> and return 1 if deleted. Otherwise, 0 is returned.
+
+=head2 mar[K][V]get
+
+Return pointer to value, associated with the I<key> or NULL if key is absent.
+
+=head2 mar[K][V]size
+
+Return the number of keys in I<map>.
+
+=head2 mar[K][V]free
+
+Remove all keys from I<map>.
+
+=head2 mar[K][V]memused
+
+Return the number of bytes used by I<map>.
+
+=head2 mar[K][V]count
+
+Count the number of keys present in the I<map>
+between key1 and key2 (inclusive).
+
+=head2 mar[K][V]first
+
+Find the key greater than or equal to I<key> and update it if found. If the key is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K][V]next
+
+Find the key greater than I<key> and update it if found. If the key is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K][V]last
+
+Find the key less than or equal to I<key> and update it if found. If the key is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K][V]prev
+
+Find the key less than I<key> and update it if found. If the key is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K][V]print
+
+Print internal data structure of I<map>.
+This is for debugging or learning purposes only!
+
+=head2 mar[K][V]sanity
+
+Check internal structure of B+-Tree for consistency.
+This is for debugging purposes only!
+
+=head1 EXAMPLE
+
+example/*.c
+
+=head1 AUTHOR
+
+Copyright (c) 2024-2025 Aleksey Cheusov <vle@gmx.net>
+
+=head1 HOME
+
+L<https://github.com/cheusov/libmarika>
+
+=head1 SEE ALSO
+L<marika_set(3)>

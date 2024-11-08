@@ -1,0 +1,144 @@
+=head1 NAME
+
+Marika set functions -- C library for creating and manipulating a set
+of 4/8-byte integers. Keys are ordered.
+
+=head1 LIBRARY
+
+ Set of integer values (libmarika, -lmarika)
+
+=head1 SYNOPSIS
+
+ typedef struct {
+   ...
+   uint8_t errno;          // error number
+ } marika_error_t;
+ 
+ typedef struct {
+   ...
+ } marika_iterator_t;
+
+ int mar[K]set(void** pset, [KT] key, marika_error_t* err);
+ int mar[K]unset(void** pset, [KT] key, marika_error_t* err);
+ int mar[K]test(const void* set, [KT] key);
+ size_t mar[K]size(const void* set);
+ size_t mar[K]memused(const void* set);
+ int mar[K]first(const void* set, [KT]* pkey);
+ int mar[K]next(const void* set, [KT]* pkey);
+ int mar[K]last(const void* set, [KT]* pkey);
+ int mar[K]prev(const void* set, [KT]* pkey);
+ size_t mar[K]count(const void* set, [KT] key1, [KT] key2);
+ void mar[K]iterator_init(const void* set, marika_iterator_t* iterator);
+ void mar[K]iterator_destroy(marika_iterator_t* iterator);
+ int mar[K]iterate(marika_iterator_t* iterator, [KT]* key);
+ void mar[K]free(void** pset);
+ void mar[K]print(FILE* fd, const void* set);
+ int mar[K]sanity(const void* set, marika_error_t* err);
+
+I<[KT]> is a key type. It is
+I<uint64_t> (when I<[K]> is I<8U>),
+I<int64_t> (when I<[K]> is I<8S>),
+I<uint32_t> (when I<[K]> is I<4U>),
+I<int32_t> (when I<[K]> is I<4S>),
+I<int> (when I<[K]> is I<I> or I<IS>),
+I<unsigned> (when I<[K]> is I<U> or I<IU>),
+I<long> (when I<[K]> is I<L>) or
+I<unsigned long> (when I<[K]> is I<LU>).
+
+Here, letter I<U> means "unsigned", I<S> means "signed",
+4 or 8 specify a key size. Letters I<I> and I<L>
+mean I<int> and I<long> types.
+So, I<4U> is I<uint32_t>, I<8S> is I<int64_t>,
+I<LU> is I<unsigned long>
+etc. For example, I<mar4Sget> uses I<int32_t> as a key.
+
+=head1 MOTIVATION
+
+B<marika> family of functions allows creating and manipulating a
+set of 4/8-byte keys.  Internally, B+-Tree
+data structure is used with a few cache lines (aligned to cache line
+size) for leaf and internal nodes, thus, providing very good locality. Functions
+provided by libmarika provide performance better than traditional
+Red-Black, AVL or other binary search trees.  With the help of
+B<mar*iterate> function one can easily iterate over keys in ascending
+order.
+
+=head1 DETAILS
+
+=head2 mar[K]set
+
+Insert I<key> to I<set> and return 1 if inserted item is new.
+Otherwise, 0 is returned.
+In this case it's necessary to check err->errno.
+
+=head2 mar[K]unset
+
+Remove I<key> from I<set> and return 1 if removed successfully.
+Otherwise, 0 is returned.
+In this case it's necessary to check err->errno.
+
+=head2 mar[K]test
+
+Return 1 if I<key> is in I<set>, and 0 otherwise.
+
+=head2 mar[K]size
+
+Return the number of keys in I<set>.
+
+=head2 mar[K]free
+
+Remove all keys from I<set>.
+
+=head2 mar[K]memused
+
+Return the number of bytes used by I<set>.
+
+=head2 mar[K]count
+
+Count the number of keys present in the I<set>
+between key1 and key2 (inclusive).
+
+=head2 mar[K]first
+
+Find the key greater than or equal to I<key> and update it if found. If I<key> is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K]next
+
+Find the key greater than I<key> and update it if found. If the key is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K]last
+
+Find the key less than or equal to I<key> and update it if found. If the key is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K]prev
+
+Find the key less than I<key> and update it if found. If the key is found,
+a pointer to appropriate value is returned. Otherwise, NULL is returned.
+
+=head2 mar[K]print
+
+Print internal data structure of I<set>.
+This is for debugging or learning purposes only!
+
+=head2 mar[K]sanity
+
+Check internal structure of B+-Tree for consistency.
+This is for debugging purposes only!
+
+=head1 EXAMPLE
+
+example/*.c
+
+=head1 AUTHOR
+
+Copyright (c) 2024-2025 Aleksey Cheusov <vle@gmx.net>
+
+=head1 HOME
+
+L<https://github.com/cheusov/libmarika>
+
+=head1 SEE ALSO
+L<marika_set(3)>

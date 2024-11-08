@@ -1,0 +1,14 @@
+ALLOCATOR_LIB ?=	-ltcmalloc_minimal
+WARNS          =	4
+COPTS         ?=	-O2 -g
+CFLAGS.check  +=	-Wno-error=unused-variable -Wno-error=unused-function
+
+ld_lib_path    =	LD_LIBRARY_PATH=${OBJDIR_libmarika}; export LD_LIBRARY_PATH
+
+LDADD         +=	${ALLOCATOR_LIB}
+
+USE_ALIGNMENT ?=	128
+USE_NODE_SIZE ?=	256
+
+CPPFLAGS      +=	-DALIGNMENT=${USE_ALIGNMENT}
+CPPFLAGS      +=	-DNODE_SIZE=${USE_NODE_SIZE}

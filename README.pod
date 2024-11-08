@@ -1,0 +1,98 @@
+=pod
+
+=head1 Overview:
+
+B<libMarika> is set of C functions for manipulating a map with 4/8-byte integer keys and values,
+and a set of 4/8-bytes integers.
+
+Features:
+
+=over 2
+
+=item *
+
+B+-tree algorithm is used.
+
+=item *
+
+Both leaf and internal nodes are aligned with cache line (usually 64 bytes). This is a compile-time option.
+
+=item *
+
+Leaf and internal nodes are 256-byte in size. This may change in the future.
+
+=item *
+
+The number of elements within the node is stored in lower bits of pointer to this node. As a result node contains more keys and values.
+
+=item *
+
+The structure of tree node depends on size of key, value and pointer to minize a padding. That is, almost all bytes in the node are used for keys, values and pointers. This is true for 32/64-byte CPUs and 4/8-byte keys and values.
+
+=back
+
+=head1 Performance
+
+Because B+-tree nodes are aligned with cache line, the main memory allocation function is alighed_alloc(64, 256).
+So, the overall performance heavily depends of it.
+
+Unfortunately, many systems including glibc-based Linux-es (at least glibc<=2.32) and
+macOS (Darwin<=23.1.0) provide libc with extreamly inefficient
+I<aligned_alloc>. On these systems
+I<aligned_alloc(64, 256)> works 4-18 times slower than I<malloc(256)>.
+Obviously, this dramatically affects the overall performance. On the other hand,
+on NetBSD and FreeBSD operating systems, where I<jemalloc> is a part of libc,
+I<aligned_alloc(64, 256)> works very fast and has the same performance as I<malloc(256)>.
+
+Thus, on glibc-based Linux-es and macOS I'd strongly recommend use one of the following open source
+malloc implementations:
+
+=over 2
+
+=item *
+
+Google's I<tcmalloc> L<https://google.github.io/tcmalloc/overview.html>
+
+=item *
+
+FreeBSD's I<jemalloc> L<https://jemalloc.net/>
+
+=item *
+
+Microsoft's I<mimalloc> L<https://github.com/microsoft/mimalloc>
+
+=back
+
+=head1 Bugs and Limitations
+
+At this time deletion of element is not implemented yet.
+
+=head1 Links
+
+=over 2
+
+=item "Algorithms for Modern Hardware" book by Sergey Slotin
+
+L<https://en.algorithmica.org/hpc/>
+
+=item Google's I<tcmalloc>
+
+L<https://google.github.io/tcmalloc/overview.html>
+
+=item I<jemalloc>
+
+L<https://jemalloc.net/>
+
+=item Microsoft's I<mimalloc>
+
+L<https://github.com/microsoft/mimalloc>
+
+=back
+
+=head1 Copyright
+
+Written by Aleksey Cheusov <vle@gmx.net>
+
+https://github.com/cheusov/libMarika
+
+=cut

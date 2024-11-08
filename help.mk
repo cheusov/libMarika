@@ -1,0 +1,7 @@
+HELP_MSG.libmarika   =	"library itself"
+HELP_MSG.tests       =	"tests"
+HELP_MSG.examples    =	"examples"
+HELP_MSG.bench_marika   =	"trivial benchmarking utility for libmarika sets"
+HELP_MSG.bench_judy1    =	"trivial benchmarking utility for Judy1"
+HELP_MSG.bench_std_set  =	"trivial benchmarking utility for C++ std::set"
+HELP_MSG.bench_std_unordered_set  =	"trivial benchmarking utility for C++ std::unordered_set"
