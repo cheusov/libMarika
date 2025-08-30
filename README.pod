@@ -29,6 +29,10 @@ The number of elements within the node is stored in lower bits of pointer to thi
 
 The structure of tree node depends on size of key, value and pointer to minize a padding. That is, almost all bytes in the node are used for keys, values and pointers. This is true for 32/64-byte CPUs and 4/8-byte keys and values.
 
+=item *
+
+Top-level data structure is represented as a single pointer, thus allowing nested B+-trees.
+
 =back
 
 =head1 Performance
