@@ -67,6 +67,13 @@ Microsoft's I<mimalloc> L<https://github.com/microsoft/mimalloc>
 
 =back
 
+=head1 Benchmarks
+
+Benchmarks on some CPUs are available here.
+L<https://github.com/cheusov/libMarika/tree/master/bench_results>
+
+They are collected with the help of L<https://github.com/cheusov/hash-table-shootout> project.
+
 =head1 Bugs and Limitations
 
 At this time deletion of element is not implemented yet.
