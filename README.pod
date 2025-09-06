@@ -11,7 +11,7 @@ Features:
 
 =item *
 
-B+-tree algorithm is used.
+Internal data structure is a B+-tree in memory.
 
 =item *
 
@@ -32,6 +32,10 @@ The structure of tree node depends on size of key, value and pointer to minize a
 =item *
 
 Top-level data structure is represented as a single pointer, thus allowing nested B+-trees.
+
+=item *
+
+API for map os very similar to JudyL. API for set is very similar to Judy1 L<https://judy.sourceforge.net/>.
 
 =back
 
